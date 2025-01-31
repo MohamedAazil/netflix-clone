@@ -24,5 +24,15 @@
 .copyright-text {
     color: gray;
     font-size: 14px;
-    margin: ;
+}
+
+@media (max-width:800px){
+    .footer img{
+        width: 25px;
+    }
+    .footer ul{
+        grid-template-columns: auto auto;
+        gap: 8px;
+        font-size: 14px;
+    }
 }
